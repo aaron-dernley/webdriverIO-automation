@@ -1,3 +1,5 @@
+tests folder contains the example addtobasket test
+
 // New project set up:
 
 1. mkdir - reponamehere 
