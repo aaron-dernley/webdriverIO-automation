@@ -1,0 +1,24 @@
+{
+  "name": "wdio-g4m",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "wdio-screenshots-cleanup-service": "0.0.7",
+    "webdriverio": "^4.14.2"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5"
+  },
+  "scripts": {
+    "test": "wdio -- ./config/wdio.conf.js",
+    "test:dt3": "wdio -- ./config/wdio.dt3.js",
+    "config": "wdio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
